@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="AlertCenterListItemConnector">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:background">@color/color_nam_menu_dark_gray</item>
+    </style>
+
+    <style name="AlertCenterTimeLineLayout">
+        <item name="android:gravity">end</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">26dp</item>
+    </style>
+</resources>
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed4749</color>
+    <color name="colorPrimaryDark">#2d2d37</color>
+    <color name="colorAccent">#2d2d37</color>
+
+
+
+    <color name="color_hero_red">#ed4749</color>
+    <color name="color_hero_red_light">#f9d9d9</color>
+    <color name="color_hero_dark_gray">#363640</color>
+
+
+    <color name="color_nam_menu_dark_gray">#2d2d37</color>
+    <color name="color_nam_menu_light_gray">#68687c</color>
+    <color name="color_nam_menu_icon_color">#feffff</color>
+
+    <!--<color name="color_table_row_bg_dark">#cdcfcf</color>-->
+    <color name="color_table_row_bg_dark">#bdbdc6</color>
+    <color name="color_table_row_bg_dark_2">#d9dcdc</color>
+    <color name="color_progress_bar_unfinished_gray">#d0d2d2</color>
+    <color name="color_table_row_bg_light">#f2f4f4</color>
+
+    //Donut color
+    <color name="color_holo_blue_dark">#ff0099cc</color>
+    <color name="color_orange">#edbf6e</color>
+
+    <color name="color_holo_green_dark">#669900</color>
+    <color name="color_holo_red_dark">#cc0000</color>
+
+</resources>

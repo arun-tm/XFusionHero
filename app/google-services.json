@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "275381163144",
+    "project_id": "firebase-xfusionhero"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275381163144:android:7ad5ea385b749203",
+        "android_client_info": {
+          "package_name": "com.teramatrix.xfusionhero"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt0lG0WunUbYx6PCgK6ajM0LO5MlWlkNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-72984712-6"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

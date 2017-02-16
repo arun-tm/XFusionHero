@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:orientation="vertical"
+        android:weightSum="8"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:layout_above="@+id/date_lay">
+
+
+            <LinearLayout
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="6dp"
+                android:layout_toLeftOf="@+id/seprator"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:background="@color/color_table_row_bg_light"
+                android:weightSum="35">
+
+
+                <TextView
+                    android:id="@+id/alert_bar_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@color/color_hero_red"
+                    android:layout_marginBottom="2dp"
+                    android:textSize="11sp" />
+
+                <LinearLayout
+                    android:id="@+id/alert_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="15"
+                    android:orientation="vertical"
+                    android:background="@color/color_nam_menu_dark_gray">
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/seprator"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"></View>
+
+            <LinearLayout
+                android:layout_width="18dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/seprator"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:background="@color/color_table_row_bg_light"
+                android:weightSum="30">
+
+                <TextView
+                    android:id="@+id/notification_bar_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textColor="@android:color/white"
+                    android:background="@color/color_hero_red"
+                    android:layout_marginBottom="2dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="11sp" />
+
+                <LinearLayout
+                    android:id="@+id/notification_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:orientation="vertical"
+                    android:background="@color/color_nam_menu_light_gray">
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/date_lay"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true">
+
+            <View
+                android:id="@+id/hor_sep_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></View>
+
+            <TextView
+                android:id="@+id/date_range"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hor_sep_line"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:text="10 Oct 2016"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

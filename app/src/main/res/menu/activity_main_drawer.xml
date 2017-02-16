@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_dashboard" android:icon="@mipmap/ic_desktop_windows_white_24dp"
+            android:title="DASHBOARD"
+            />
+        <item android:id="@+id/nav_alert_notification" android:icon="@mipmap/ic_notifications_none_white_24dp"
+            android:title="ALERT AND NOTIFICATION" />
+
+        <item android:id="@+id/nav_logout" android:icon="@mipmap/ic_exit_to_app_white_24dp"
+            android:title="LOGOUT" />
+    </group>
+
+
+</menu>
